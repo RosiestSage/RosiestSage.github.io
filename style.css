@@ -1,0 +1,23 @@
+h1:hover {
+    color: red;
+}
+
+.kép{
+    margin: 0px auto;
+    width: 80%;
+    padding: 0px;
+
+}
+
+img{
+    float: left;
+    width: 6cm;
+    height: 8cm;
+    padding: 0 10px 0 0;
+
+}
+
+.szöveg{
+    text-align: justify;
+    padding: 0 150px 0 150px;
+}
