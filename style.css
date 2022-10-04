@@ -11,26 +11,37 @@ h1:hover {
 
 img{
     float: left;
-    width: 6cm;
-    height: 8cm;
-    padding: 0 10px 0 0;
+    width: 6.5cm;
+    height: 8.75cm;
+    padding: 155px 10px 60px 10px;
 
 }
 
 .szöveg{
     text-align: justify;
-    padding: 0 150px 0 150px;
-    background-image: url(Háttér1.jpg);
+    padding: 110px 150px 0 150px;
+    background-image: url(Háttér3.jpg);
     height: 100vh;
     background-size:cover ;
     background-position:center ;
     background-repeat: no-repeat;
+    color: white;
+    background-blend-mode: darken;
+    background: rgba(0,0,0,0.5) url(Háttér3.jpg);
     
 
 }
 
+h1{
+    font-size: 1cm;
+    color: #fff;
+
+}
+
+
 a{
     color: blue;
+    text-shadow: 1px 1px 10px  #fff, -1px 1px 10px #fff;
     text-decoration:none
     
 }
@@ -38,4 +49,10 @@ a:hover{
 
     color:  darkviolet;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 
