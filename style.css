@@ -1,5 +1,5 @@
-h1:hover {
-    color: red;
+h1{
+    color: #000;
 }
 
 .kép{
@@ -20,29 +20,28 @@ img{
 .szöveg{
     text-align: justify;
     padding: 110px 150px 0 150px;
-    background-image: url(Háttér3.jpg);
+    background-image: url(Háttér4.png);
     height: 100vh;
     background-size:cover ;
     background-position:center ;
     background-repeat: no-repeat;
     color: white;
     background-blend-mode: darken;
-    background: rgba(0,0,0,0.5) url(Háttér3.jpg);
+    background: rgba(0,0,0,0.5) url(Háttér4.png);
     
 
 }
 
 h1{
     font-size: 1cm;
-    color: #fff;
 
 }
 
 
 a{
     color: blue;
-    text-shadow: 1px 1px 10px  #fff, -1px 1px 10px #fff;
-    text-decoration:none
+    text-decoration:none;
+    text-shadow: 0.15px 0.15px 1px #fff;
     
 }
 a:hover{
@@ -54,5 +53,8 @@ a:hover{
     padding: 0;
 }
 
+.E945{
+    text-align: center;
 
+}
 
