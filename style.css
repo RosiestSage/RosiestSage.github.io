@@ -1,5 +1,5 @@
 h1{
-    color: #000;
+    color: #fff;
 }
 
 .kép{
@@ -10,25 +10,31 @@ h1{
 }
 
 img{
+    border: 1px 1px 1px 1px;
+    box-sizing: content-box;
+    height: 100%;
     float: left;
     width: 6.5cm;
     height: 8.75cm;
-    padding: 155px 10px 60px 10px;
-
+    /* padding: 155px 10px 60px 10px; */
+    padding: 0px 10px 0px 0px;
+    margin-top: 15.5%;
+    margin-left: 7%;
+    
 }
 
 .szöveg{
     text-align: justify;
-    padding: 110px 150px 0 150px;
-    background-image: url(Háttér4.png);
+    padding: 50px 150px 0 150px;
+    /* background-image: url(Háttér4.png); */
     height: 100vh;
-    background-size:cover ;
+    background-size: 100% ;
     background-position:center ;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
     background-blend-mode: darken;
-    background: rgba(0,0,0,0.5) url(Háttér4.png);
-    
+    /* background: rgba(0,0,0,0.5) url(Háttér4.png);
+     */
 
 }
 
@@ -48,13 +54,42 @@ a:hover{
 
     color:  darkviolet;
 }
-*{
+ *{
     margin: 0;
     padding: 0;
-}
+} 
 
 .E945{
     text-align: center;
+    width: 60%;
+    margin: 0 20%;
+    padding-bottom: 30px;
+}
+body{
+    margin: 0;
 
 }
+ .hedör{
+    margin-top: 0px;
+    box-sizing: content-box;
+    border: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-image: url(Háttér3.jpg);
+    margin: 0px;
+    text-shadow: 2px 2px 1px #000;
+    border-bottom: 4px solid #000 ;
+ }
 
+ .hedör a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 0.7cm;
+    padding: 0px 50px;
+    text-shadow: 3px 3px 1px #000;
+ }
+
+ 
