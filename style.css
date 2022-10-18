@@ -114,3 +114,12 @@ a:hover{
     margin-left: 7%;
 
 }
+.oldalec ul{
+    position: fixed;
+    margin: 10% 0% 30% 2%;
+}
+.oldalec span {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 6px;
+}
