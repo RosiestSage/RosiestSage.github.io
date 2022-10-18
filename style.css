@@ -22,7 +22,9 @@ body{
     text-shadow: 2px 2px 1px #000;
     border-bottom: 4px solid #000;
  }
-
+.hedör a:hover{
+    color:brown;
+}
  .hedör a{
     color:#fff;
     margin-top: 0px;
