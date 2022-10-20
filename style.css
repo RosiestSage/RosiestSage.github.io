@@ -27,15 +27,18 @@ body{
 }
 .lecek a{
     color:#fff;
-    margin-top: 0px;
+    float: right;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 0.7cm;
-    padding: 0px 50px;
+    margin: 30px 50px;
     text-shadow: 3px 3px 1px #000;
  }
 
-h1{
-    font-size: 1cm;
+.hedör h1{
+    font-size: 0.5cm;
+    float: left;
+    padding: 20px 0px 20px 20px;
 }
 .hedör{
     text-shadow: 2px 2px 1px #000;
@@ -43,6 +46,7 @@ h1{
     text-align: center;
     position: fixed;
     width: 100%;
+    
 }
 .futer{
     text-shadow: 2px 2px 1px #000;
@@ -145,3 +149,6 @@ li a:hover{
     color: rgb(255, 145, 0);
     text-decoration: underline;
 }
+/* td{
+    border: 3px solid black;
+} */
