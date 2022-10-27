@@ -7,7 +7,7 @@ body{
     color:black;
     background:url(Háttér\ 6.jpg) fixed center;
     background-repeat: no-repeat;
-    background-size: 100% ; 
+    background-size: 100%; 
     /* background-image: url(Háttér5.jpg);
     background-position:center ;
     background-repeat: no-repeat;
@@ -50,6 +50,9 @@ body{
     width: 100%;
     
 }
+.hedör a:hover{
+    font-size: 0.75cm;
+}
 .futer{
     text-shadow: 2px 2px 1px #000;
     border-top: 4px solid #000;
@@ -85,8 +88,8 @@ a{
 }
 a:hover{
     color:  darkviolet;
+    font-size: 6.25mm;
 }
-
 .evszam{
     text-align: center;
     padding-bottom: 10px;
