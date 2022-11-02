@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% ; */
 }
+
 .lecek{
     color: #fff;
     margin-top: 0px;
@@ -31,18 +32,18 @@ body{
     color:#fff;
     float: right;
     margin-top: 30px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 0.7cm;
-    margin: 30px 50px;
+    margin: 30px 50px 0px ;
     text-shadow: 3px 3px 1px #000;
  }
 
-.hedör h1{
+.header h1{
     font-size: 0.5cm;
     float: left;
     padding: 20px 0px 20px 20px;
 }
-.hedör{
+.header{
     text-shadow: 2px 2px 1px #000;
     border-bottom: 4px solid #000;
     text-align: center;
@@ -50,10 +51,10 @@ body{
     width: 100%;
     
 }
-.hedör a:hover{
+.header a:hover{
     font-size: 0.75cm;
 }
-.futer{
+.footer{
     text-shadow: 2px 2px 1px #000;
     border-top: 4px solid #000;
     padding: 30px 0 0px 70px;
@@ -70,16 +71,20 @@ body img{
 }
 
 .poz{
-    text-align: justify;
-    margin: 0% 0% 0% 10%;
-    height: 16cm;
+    text-align: left;
+    margin: 0% 5% 0% 5%;
+    height: 12cm;
     color: black;
     background-blend-mode: darken;
-    margin-right: 10%;
 }
-.bekezdes{
+.par{
     font-size: 6mm;
+    text-align: left;
     
+}
+.par span{
+    text-decoration: underline;
+    font-weight: bold;
 }
 a{
     color: blue;
@@ -90,33 +95,29 @@ a:hover{
     color:  darkviolet;
     font-size: 6.25mm;
 }
-.evszam{
+.year{
     text-align: center;
     padding-bottom: 10px;
     text-decoration: underline;
     font-style: italic;
     font-size: 10mm;
 }
-.evszamv1{
+.yearv1{
     padding: 100px 0px 0px 0px;
     width: 0%;
     margin-left: 48%;
 }
-.evszamv2{
+.yearv2{
     padding-top: 0px;
     height: 0%;
     width: 0%;
     margin-left: 48%;
 }
-.evszamv3{
+.yearv3{
     padding-top: 100px;
     width: 60%;
     margin-left: 22.5%;
     padding-bottom: 0px;
-}
-.bekezdes span{
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 .carter-ugynok img{
@@ -124,12 +125,12 @@ a:hover{
     margin-left: 7%;
 
 }
-.képak1 img{
+.pic img{
     margin-top: 0px;
     margin-left: 0%;
 
 }
-.oldalec ul{
+.oldallec ul{
     color:rgba(255, 255, 255, 0.7) ;
     text-decoration: dotted;
     position: fixed;
@@ -137,6 +138,9 @@ a:hover{
     list-style-type: none;
     background-image: url(Háttér4.png);
     border: 2px black solid;
+    width: 50px;
+    border-top-right-radius: 0.5cm;
+    border-bottom-right-radius: 0.5cm;    
 }
 li a{
     color: rgba(255, 255, 255, 0.7) ;
@@ -144,19 +148,20 @@ li a{
 li a:hover{
     color: brown;
     text-decoration: underline;
+    font-size: 6mm;
 }
-.oldalec span {
+.oldallec span {
     font-weight: bold;
     text-align: center;
     padding-left: 6px;
 }
-.szövegpoz{
+.textpoz{
     padding: 10px 10px 10px 10px;
 }
-.szövegpozv2{
+.textv2{
     height: 3cm;
     padding: 0px 10px 10px 10px;
-    text-align: justify;
+    text-align: center;
     margin: 0% 10% 0% 10%;
     color: black;
     background-blend-mode: darken;
