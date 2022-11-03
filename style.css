@@ -5,13 +5,9 @@
 body{
     margin: 0;
     color:black;
-    background:url(Háttér\ 6.jpg) fixed center;
+    background:url(képek/Háttér\ 6.jpg) fixed center;
     background-repeat: no-repeat;
     background-size: 100%; 
-    /* background-image: url(Háttér5.jpg);
-    background-position:center ;
-    background-repeat: no-repeat;
-    background-size: 100% ; */
 }
 
 .lecek{
@@ -22,7 +18,7 @@ body{
     margin-bottom: 20px;
     text-align: center;
     text-decoration: none;
-    background-image: url(Háttér4.png);
+    background-image: url(képek/Háttér4.png);
     margin: 0px;
  }
 .lecek a:hover{
@@ -32,7 +28,6 @@ body{
     color:#fff;
     float: right;
     margin-top: 30px;
-    /* margin-bottom: 20px; */
     font-size: 0.7cm;
     margin: 30px 50px 0px ;
     text-shadow: 3px 3px 1px #000;
@@ -66,16 +61,17 @@ body img{
     width: 6.5cm;
     height: 9.77cm;
     margin: 0px 10px 0px 0px;
-    /* margin-top: 9%;
-    margin-left: 7%; */
 }
 
 .poz{
     text-align: left;
-    margin: 0% 5% 0% 5%;
-    height: 12cm;
+    margin: 0% 5% 3% 5%;
+    height: 11cm;
     color: black;
     background-blend-mode: darken;
+    border: 2px black solid;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 0.5cm ;
 }
 .par{
     font-size: 6mm;
@@ -126,8 +122,10 @@ a:hover{
 
 }
 .pic img{
-    margin-top: 0px;
+    margin-top: 22.5px;
     margin-left: 0%;
+    margin-left: 20px;
+    border-radius: 0.5cm ;
 
 }
 .oldallec ul{
@@ -136,7 +134,7 @@ a:hover{
     position: fixed;
     margin: 10% 92% 30% 0%;
     list-style-type: none;
-    background-image: url(Háttér4.png);
+    background-image: url(képek/Háttér4.png);
     border: 2px black solid;
     width: 50px;
     border-top-right-radius: 0.5cm;
@@ -167,12 +165,10 @@ li a:hover{
     background-blend-mode: darken;
 }
 .imdb{
-    color: rgb(255, 145, 0);
+    font-weight: bold;
+    color: rgb(255, 115, 0);
 }
 .imdb:hover{
-    color: rgb(255, 145, 0);
+    color: rgb(255, 115, 0);
     text-decoration: underline;
 }
-/* td{
-    border: 3px solid black;
-} */
