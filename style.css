@@ -55,12 +55,44 @@ body{
     padding: 30px 0 0px 70px;
 
 }
+.oldallec ul{
+    color:rgba(255, 255, 255, 0.7) ;
+    text-decoration: dotted;
+    position: fixed;
+    margin: 10% 92% 30% 0%;
+    list-style-type: none;
+    background-image: url(képek/Háttér4.png);
+    border: 2px black solid;
+    width: 50px;
+    height: 320px;
+    border-top-right-radius: 0.5cm;
+    border-bottom-right-radius: 0.5cm;    
+    text-align: center;
+}
+li a{
+    color: rgba(255, 255, 255, 0.7) ;
+}
+li a:hover{
+    color: brown;
+    text-decoration: underline;
+    font-size: 6mm;
+}
+.oldallec span {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 6px;
+}
+
 body img{
     box-sizing: content-box;
     float: left;
     width: 6.5cm;
     height: 9.77cm;
     margin: 0px 10px 0px 0px;
+    margin-top: 22.5px;
+    margin-left: 0%;
+    margin-left: 20px;
+    border-radius: 0.5cm ;
 }
 
 .poz{
@@ -116,38 +148,6 @@ a:hover{
     padding-bottom: 0px;
 }
 
-.pic img{
-    margin-top: 22.5px;
-    margin-left: 0%;
-    margin-left: 20px;
-    border-radius: 0.5cm ;
-
-}
-.oldallec ul{
-    color:rgba(255, 255, 255, 0.7) ;
-    text-decoration: dotted;
-    position: fixed;
-    margin: 10% 92% 30% 0%;
-    list-style-type: none;
-    background-image: url(képek/Háttér4.png);
-    border: 2px black solid;
-    width: 50px;
-    border-top-right-radius: 0.5cm;
-    border-bottom-right-radius: 0.5cm;    
-}
-li a{
-    color: rgba(255, 255, 255, 0.7) ;
-}
-li a:hover{
-    color: brown;
-    text-decoration: underline;
-    font-size: 6mm;
-}
-.oldallec span {
-    font-weight: bold;
-    text-align: center;
-    padding-left: 6px;
-}
 .textpoz{
     padding: 10px 10px 10px 10px;
 }
@@ -161,9 +161,9 @@ li a:hover{
 }
 .imdb{
     font-weight: bold;
-    color: rgb(255, 115, 0);
+    color: rgb(140, 0, 0);
 }
 .imdb:hover{
-    color: rgb(255, 115, 0);
+    color: rgb(200, 0, 0);
     text-decoration: underline;
 }
